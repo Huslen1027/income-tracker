@@ -2,8 +2,8 @@ import Piechart from "./Chart/DoughnutPie";
 import { DonutData } from "@/pages/utils/DoughnutData";
 export default function DoughnutandPie() {
   return (
-    <div className="w-[588px] h-[284px] rounded-[12px] bg-[#FFF] flex flex-col items-start">
-      <div className="w-[588px] h-[56px] flex items-center border-b gap-2 p-4 justify-between">
+    <div className="w-[580px] h-[284px] rounded-[12px] bg-[#FFF] flex flex-col items-start">
+      <div className="w-[580px] h-[56px] flex items-center border-b gap-2 p-4 justify-between">
         <p className="text-black font-normal">Income-Expense</p>
         <p>Jun 1 - Nov 30</p>
       </div>

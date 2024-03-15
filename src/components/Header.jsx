@@ -1,13 +1,18 @@
 import HeaderIcon from "./icons/headerIcons/HeaderIcon";
 import PlusIcon from "./icons/headerIcons/PlusIcon";
+import Link from "next/link";
 export default function Header() {
   return (
     <div className="flex w-full px-[120px]  bg-[#FFF] justify-between items-center py-4">
       <div className="navbar ">
         <div className="flex-1">
           <HeaderIcon />
-          <a className="btn btn-ghost text-xl">Dashboard</a>
-          <a className="btn btn-ghost text-xl">Records</a>
+          <Link href={"/"}>
+            <p className="btn btn-ghost text-xl">Dashboard</p>
+          </Link>
+          <Link href={"/records"}>
+            <p className="btn btn-ghost text-xl">Records</p>
+          </Link>
         </div>
         <div className="flex-none gap-4">
           <button className="flex bg-[#0166FF] w-[99px] h-[32px] rounded-[20px] justify-center items-center gap-1">

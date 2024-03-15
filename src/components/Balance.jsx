@@ -10,7 +10,7 @@ export default function Balance() {
           <p className="text-[18px] text-white font-semibold ">Geld</p>
         </div>
         <div className="flex items-start justify-start flex-col absolute top-[120px] ">
-          <p className="opacity-0.5 text-[16px]">Cash</p>
+          <p className="opacity-0.5 text-[16px] text-[white]">Cash</p>
           <p className="text-white text-[24px]">10,000,000</p>
         </div>
         <div className="absolute left-[148px] top-[20px]">
